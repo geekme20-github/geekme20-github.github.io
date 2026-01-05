@@ -15,8 +15,12 @@ I built an end-to-end machine learning pipeline that compares three different mo
 ## 📊 Data & Insights
 * **Top Driver:** Customers on 'Month-to-Month' contracts were 3x more likely to churn. However, lost some of the features
   during model deployment because of Dummy trap avoidance. Working on a solution to counter this!!
-* **Model Performance:** The XGBoost model achieved an AUC-ROC of [Your Score, e.g., 0.84].
-* Model,Accuracy,Precision,Recall,AUC-ROC
-  Logistic Regression,79.2%,0.65,0.52,0.83
-  Random Forest,80.5%,0.68,0.55,0.85
-  XGBoost (Winner),81.4%,0.70,0.58,0.87
+* **Model Performance:** The XGBoost model achieved an AUC-ROC of 0.8347
+------------------------------------------------------------
+BEST MODEL BY METRIC
+------------------------------------------------------------
+Accuracy        → Logistic Regression  (0.7991)
+Precision       → Logistic Regression  (0.6454)
+Recall          → XGBoost              (0.7487)
+F1-Score        → Random Forest        (0.6269)
+ROC-AUC         → Random Forest        (0.8404)
