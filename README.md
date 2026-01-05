@@ -1,8 +1,9 @@
+
 # 📡 Telco Customer Churn Intelligence
 > **Business Goal:** A predictive analytics dashboard designed to help telecom retention teams identify high-risk customers and understand the key drivers behind churn.
 
 ## 🚀 Live Demo
-[Link to your Render App (once deployed)]
+https://geekme20-github-github-io.onrender.com
 
 ## 🛠️ The Solution
 I built an end-to-end machine learning pipeline that compares three different models (Logistic Regression, Random Forest, and XGBoost) to find the most accurate predictor. The final product is a **Dash application** that provides real-time risk scores.
