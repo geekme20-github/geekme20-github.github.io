@@ -13,5 +13,10 @@ I built an end-to-end machine learning pipeline that compares three different mo
 * **Interactive What-If Analysis:** Adjust sliders for tenure and monthly charges to see how risk changes.
 
 ## 📊 Data & Insights
-* **Top Driver:** Customers on 'Month-to-Month' contracts were 3x more likely to churn.
+* **Top Driver:** Customers on 'Month-to-Month' contracts were 3x more likely to churn. However, lost some of the features
+  during model deployment because of Dummy trap avoidance. Working on a solution to counter this!!
 * **Model Performance:** The XGBoost model achieved an AUC-ROC of [Your Score, e.g., 0.84].
+* Model,Accuracy,Precision,Recall,AUC-ROC
+  Logistic Regression,79.2%,0.65,0.52,0.83
+  Random Forest,80.5%,0.68,0.55,0.85
+  XGBoost (Winner),81.4%,0.70,0.58,0.87
