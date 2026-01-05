@@ -4,6 +4,7 @@
 
 ## 🚀 Live Demo
 https://geekme20-github-github-io.onrender.com
+Does the Live Demo button take you to Render?
 
 ## 🛠️ The Solution
 I built an end-to-end machine learning pipeline that compares three different models (Logistic Regression, Random Forest, and XGBoost) to find the most accurate predictor. The final product is a **Dash application** that provides real-time risk scores.
@@ -25,3 +26,10 @@ Precision       → Logistic Regression  (0.6454)
 Recall          → XGBoost              (0.7487)
 F1-Score        → Random Forest        (0.6269)
 ROC-AUC         → Random Forest        (0.8404)
+
+## Deep Dive
+Curious about the data science behind the app? View the Exploratory Data Analysis & Model Training Notebook here.
+Open a private/incognito browser window and go to https://geekme20-github.github.io.
+
+You can also view screenshots of the app on the assets folder.
+Does the image load?
